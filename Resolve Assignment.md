@@ -11,7 +11,7 @@ output: html_document
 # create the matrix during the call of makeCacheMatrix()
 a <- makeCacheMatrix( matrix(c(1,2,3,4), nrow = 2, ncol = 2) );
 
-#summary(a);
+summary(a);
 ```
 
 Print the matrix:
